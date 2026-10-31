@@ -29,9 +29,11 @@ Optimized for local inference via [`whisper.cpp`](https://github.com/ggerganov/w
 | `ggml-small-q5_1.bin` | ~181 MB | ~550 MB | Maximum accuracy for complex vocabulary, noisy audio, and accented voices. |
 
 ### 2. Bergamot Neural Machine Translation Models
-Compact Marian NMT models quantized via Intgemm for ultra-fast offline subtitle translation:
+Compact Marian NMT models quantized via Intgemm for ultra-fast offline subtitle translation.
+Asset naming schema: `{lang_id}-model.bin`, `{lang_id}-lex.s2t.bin`, `{lang_id}-vocab.spm`
+
 - English ⇄ Spanish (`en-es`, `es-en`)
-- English ⇄ French, German, Italian, Portuguese, Russian, and more.
+- English ⇄ French, German, Italian, Portuguese, Russian, Czech, and more.
 
 ---
 
@@ -39,8 +41,12 @@ Compact Marian NMT models quantized via Intgemm for ultra-fast offline subtitle 
 
 SubSero consumes model release assets using redundant fallback URLs:
 
-- **Primary**: `https://github.com/yeib/subsero-models/releases/download/v1.0.0/{filename}`
-- **Secondary (Hugging Face)**: `https://huggingface.co/ggerganov/whisper.cpp/resolve/main/{filename}`
+- **Whisper Speech Models**:
+  - **Primary**: `https://github.com/yeib/subsero-models/releases/download/v1.0.0/{filename}`
+  - **Fallback (Hugging Face)**: `https://huggingface.co/ggerganov/whisper.cpp/resolve/main/{filename}`
+- **Bergamot Translation Models**:
+  - **Primary**: `https://github.com/yeib/subsero-models/releases/download/v1.0.0/{lang_id}-{filename}`
+  - **Fallback (Mozilla S3)**: Original Bergamot S3 bucket mirrors
 
 ---
 
