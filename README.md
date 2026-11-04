@@ -37,11 +37,12 @@ High-fidelity offline voice synthesis models optimized for **NeoTalker** (supple
 
 | Voice ID / Model | Language | Quality / Type | Size | Primary Assets |
 | :--- | :--- | :--- | :--- | :--- |
-| `es_ES-sharvard-medium` | Español (España) | Medium (High Naturalness) | ~60 MB | `es_ES-sharvard-medium.onnx`, `es_ES-sharvard-medium.onnx.json` |
-| `es_MX-ald-medium` | Español (Latinoamérica / México) | Medium (Clean Dialogue) | ~62 MB | `es_MX-ald-medium.onnx`, `es_MX-ald-medium.onnx.json` |
-| `en_US-lessac-medium` | English (US) | Medium (Balanced Narration) | ~63 MB | `en_US-lessac-medium.onnx`, `en_US-lessac-medium.onnx.json` |
-| `en_US-ryan-medium` | English (US) | Medium (Deep Narrative) | ~63 MB | `en_US-ryan-medium.onnx`, `en_US-ryan-medium.onnx.json` |
-| `en_GB-alba-medium` | English (UK) | Medium (Expressive) | ~61 MB | `en_GB-alba-medium.onnx`, `en_GB-alba-medium.onnx.json` |
+| **`es_ES-davefx-medium`** | Español (España) | Medium (Masculino · Nítido y articulado) | ~63 MB | `es_ES-davefx-medium.onnx`, `es_ES-davefx-medium.onnx.json` |
+| **`es_ES-sharvard-medium`** | Español (España) | Medium (Femenino · Suave y neutral) | ~60 MB | `es_ES-sharvard-medium.onnx`, `es_ES-sharvard-medium.onnx.json` |
+| **`es_MX-ald-medium`** | Español (México / LatAm) | Medium (Masculino · Cálido y conversacional) | ~62 MB | `es_MX-ald-medium.onnx`, `es_MX-ald-medium.onnx.json` |
+| **`en_US-lessac-medium`** | English (US) | Medium (Femenino · Narración balanceada) | ~63 MB | `en_US-lessac-medium.onnx`, `en_US-lessac-medium.onnx.json` |
+| **`en_US-ryan-medium`** | English (US) | Medium (Masculino · Narrador profundo) | ~63 MB | `en_US-ryan-medium.onnx`, `en_US-ryan-medium.onnx.json` |
+| **`en_US-amy-medium`** | English (US) | Medium (Femenino · Dinámico y expresivo) | ~63 MB | `en_US-amy-medium.onnx`, `en_US-amy-medium.onnx.json` |
 
 ---
 
