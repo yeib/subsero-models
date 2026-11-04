@@ -35,14 +35,24 @@ Optimized for local offline speech-to-text transcription via [`whisper.cpp`](htt
 ### 2. Neural Text-to-Speech Models (Piper ONNX / Modern Free TTS)
 High-fidelity offline voice synthesis models optimized for **NeoTalker** (supplementing the ultra-compact default Pico TTS engine):
 
+#### Tier 2: Estándar Neuronal (Medium Quality · ~60-76 MB)
 | Voice ID / Model | Language | Quality / Type | Size | Primary Assets |
 | :--- | :--- | :--- | :--- | :--- |
 | **`es_ES-davefx-medium`** | Español (España) | Medium (Masculino · Nítido y articulado) | ~63 MB | `es_ES-davefx-medium.onnx`, `es_ES-davefx-medium.onnx.json` |
-| **`es_ES-sharvard-medium`** | Español (España) | Medium (Femenino · Suave y neutral) | ~60 MB | `es_ES-sharvard-medium.onnx`, `es_ES-sharvard-medium.onnx.json` |
-| **`es_MX-ald-medium`** | Español (México / LatAm) | Medium (Masculino · Cálido y conversacional) | ~62 MB | `es_MX-ald-medium.onnx`, `es_MX-ald-medium.onnx.json` |
+| **`es_ES-sharvard-medium`** | Español (España) | Medium (Femenino · Suave y neutral) | ~76 MB | `es_ES-sharvard-medium.onnx`, `es_ES-sharvard-medium.onnx.json` |
+| **`es_MX-ald-medium`** | Español (México / LatAm) | Medium (Masculino · Cálido y conversacional) | ~63 MB | `es_MX-ald-medium.onnx`, `es_MX-ald-medium.onnx.json` |
 | **`en_US-lessac-medium`** | English (US) | Medium (Femenino · Narración balanceada) | ~63 MB | `en_US-lessac-medium.onnx`, `en_US-lessac-medium.onnx.json` |
 | **`en_US-ryan-medium`** | English (US) | Medium (Masculino · Narrador profundo) | ~63 MB | `en_US-ryan-medium.onnx`, `en_US-ryan-medium.onnx.json` |
 | **`en_US-amy-medium`** | English (US) | Medium (Femenino · Dinámico y expresivo) | ~63 MB | `en_US-amy-medium.onnx`, `en_US-amy-medium.onnx.json` |
+
+#### Tier 3: Alta Fidelidad / Estudio (High Quality · ~100-115 MB)
+| Voice ID / Model | Language | Quality / Type | Size | Primary Assets |
+| :--- | :--- | :--- | :--- | :--- |
+| **`es_MX-claude-high`** | Español (México / LatAm) | High (Masculino · Estudio / Expresivo) | ~63 MB | `es_MX-claude-high.onnx`, `es_MX-claude-high.onnx.json` |
+| **`es_AR-daniela-high`** | Español (Argentina / LatAm) | High (Femenino · Audiolibro / Profesional) | ~114 MB | `es_AR-daniela-high.onnx`, `es_AR-daniela-high.onnx.json` |
+| **`en_US-lessac-high`** | English (US) | High (Femenino · Narración estudio premium) | ~108 MB | `en_US-lessac-high.onnx`, `en_US-lessac-high.onnx.json` |
+| **`en_US-ryan-high`** | English (US) | High (Masculino · Locución documental) | ~108 MB | `en_US-ryan-high.onnx`, `en_US-ryan-high.onnx.json` |
+| **`en_GB-cori-high`** | English (UK) | High (Femenino · Británico natural / Audiolibro) | ~108 MB | `en_GB-cori-high.onnx`, `en_GB-cori-high.onnx.json` |
 
 ---
 
