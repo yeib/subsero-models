@@ -1,8 +1,11 @@
 # Ignore large model binaries and artifacts
 *.bin
 *.spm
+*.onnx
+*.onnx.json
 *.tar.gz
 *.zip
 *.tmp
+release_assets/
 .DS_Store
 Thumbs.db
